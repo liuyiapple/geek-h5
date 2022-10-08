@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch,Redirect } from 'react-router-dom'
+import Layout from '@/pages/Layout'
+import Login from '@/pages/Login'
 import './App.scss'
-import Layout from './pages/Layout'
-import Login from './pages/Login'
 const App = () => {
   return (
     <Router>
