@@ -6,7 +6,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path={"/"} exact render={() => <Redirect to={"/home"}></Redirect>}></Route>
+        <Route path={"/"} exact render={() => <Redirect to={"/login"}></Redirect>}></Route>
         <Route path={'/home'} component={Layout}></Route>
         <Route path={'/login'} component={Login}></Route>
       </Switch>
