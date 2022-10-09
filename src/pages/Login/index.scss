@@ -1,0 +1,8 @@
+@import '@scss/hairline.scss';
+.p_item {
+  position: relative ;
+  height: 100px;
+  background-color: aqua;
+  border-bottom: 1px solid #C00000;
+  @include hairline(top, black);
+}

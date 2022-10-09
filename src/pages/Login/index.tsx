@@ -1,5 +1,5 @@
 import { Button } from 'antd-mobile'
-import './index.css'
+import './index.scss'
 const Login = () => {
   return (
     <div>
